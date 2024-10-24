@@ -1,0 +1,30 @@
+Bitácora de desarrollo - Calculadora RPN en Ensamblador
+
+Objetivo del parcial: Desarrollar una calculadora en lenguaje ensamblador que realice operaciones de suma, resta, multiplicación, división y módulo entre dos números enteros.
+
+El programa debe aceptar entradas en notación polaca inversa (RPN) y permitir múltiples cálculos en una sola ejecución.
+
+Etapas del desarrollo:
+
+1. - Definir las operaciones que la calculadora debería tener: suma, resta, multiplicación, división y módulo.
+   - Establecer que la entrada debería estar en formato RPN para facilitar el uso.
+
+2. - Configuración del entorno de desarrollo en Linux Ubuntu.
+   - Comenzar a escribir el código ensamblador.
+   - Implementar las funciones básicas para las operaciones matemáticas.
+   - Hacer pruebas con entradas simples.
+
+3. - Agregar manejo de errores para la división por cero.
+   - Implementar un bucle que permite realizar múltiples operaciones sin reiniciar el programa.
+   - Añadir la funcionalidad para el operador de módulo.
+
+4. - Revisar el código para asegurar claridad y legibilidad.
+   - Comentar todo el código para así aprender vocabulario y darle algo de coherencia.
+   - Probar diferentes entradas para garantizar que el programa funcione como pide el profe.
+
+5. - Realizar mas pruebas con todos los tipos de entradas (números negativos, cero, operaciones no válidas).
+   - Confirmar que el programa se comporta de manera correcta y produce resultados correctos.
+
+Pd: A todos los pasos sumarle que el gran aliado fue youtube, foros de internet, imágenes, IA, documentación y así de manera cíclica hasta lograr que funcionara.
+
+
