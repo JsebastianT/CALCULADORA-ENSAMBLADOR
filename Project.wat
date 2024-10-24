@@ -11,3 +11,14 @@ section .bss
     num2 resb 4            ; Espacio para el segundo número
     operator resb 1        ; Espacio para el operador
     input resb 20          ; Buffer para la entrada del usuario
+
+section .text
+    global _start
+
+_start:
+    ; Mensaje de bienvenida
+    mov eax, 4             ; sys_write
+    mov ebx, 1             ; stdout
+    mov ecx, prompt        ; mensaje
+    mov edx, 83            ; longitud del mensaje
+    int 0x80               ; llamada al sistema
